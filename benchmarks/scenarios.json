@@ -1,0 +1,1 @@
+{"scenarios":[{"name":"stable_csv_profile","input":"fixtures/people.csv","expected_rows":3,"expected_columns":["name","age"]},{"name":"changed_source_requires_approval","input":"fixtures/people_changed.csv","expected_approval":true}]}
